@@ -58,7 +58,9 @@
 #define WCD9XXX_DMIC_B2_CTL_DIV_3 0x02
 #define WCD9XXX_DMIC_B2_CTL_DIV_4 0x04
 
-#define WCD9XXX_ANC_DMIC_X2_ON    0x1
+//#define WCD9XXX_ANC_DMIC_X2_ON    0x1
+// gambiarra!
+#define WCD9XXX_ANC_DMIC_X2_ON    0x0 
 #define WCD9XXX_ANC_DMIC_X2_OFF   0x0
 
 /* Derived State: Bits 1 and 2 should be set for Headphone stereo */
